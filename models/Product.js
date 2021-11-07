@@ -32,7 +32,7 @@ Product.init(
       }
     },
 
-    id: {
+    tag_id: {
       type: DataTypes.INTEGER,
       autoIncrement: true,
       allowNull: false,

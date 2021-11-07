@@ -5,12 +5,12 @@ VALUES ("Electronics"),
 ("Seasonal")
 ("Personal Care")
 
-INSERT INTO product (product_name, price, stock, category_id)
-VALUES ("Samsung 60in TV", 1299.99, 56, 1),
-("Women's Leggings", 15.99, 37, 2),
-("Shovel", 12.50, 27, 3),
-("Christmas Lights 12ft", 20.99, 4)
-("Dove Body Soap", 3.99, 34, 5)
+INSERT INTO product (product_name, price, stock)
+VALUES ("Samsung 60in TV", 1299.99, 56),
+("Women's Leggings", 15.99, 37),
+("Shovel", 12.50, 27),
+("Christmas Lights 12ft", 20.99)
+("Dove Body Soap", 3.99, 34)
 
 INSERT INTO tag (tag_name)
 VALUES ("electronics")
